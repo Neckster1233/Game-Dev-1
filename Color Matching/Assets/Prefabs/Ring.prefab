@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e19f7198c3c64f8fb400cca9c410841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
+  idObj: {fileID: 11400000, guid: 610c678ffce0b4b38af57c9cf274a67c, type: 2}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
