@@ -16,4 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 610c678ffce0b4b38af57c9cf274a67c, type: 2}
   - {fileID: 11400000, guid: ba0d5c5402cce4a4ba9c05aa3264d29c, type: 2}
   - {fileID: 11400000, guid: 64a9a6552e23c4aa286051fdd1c4ee22, type: 2}
-  currentColor: {fileID: 11400000, guid: ba0d5c5402cce4a4ba9c05aa3264d29c, type: 2}
+  currentColor: {fileID: 11400000, guid: 64a9a6552e23c4aa286051fdd1c4ee22, type: 2}

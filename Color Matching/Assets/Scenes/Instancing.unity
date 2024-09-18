@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 521196826}
   - component: {fileID: 521196827}
-  - component: {fileID: 521196828}
   m_Layer: 0
   m_Name: Instancer
   m_TagString: Untagged
@@ -183,18 +182,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  startCountEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  repeatCountEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endCountEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  repeatUntilFalseEvent:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 11400000, guid: ddbc089f927ca426da1dd9b3cf9fac1e, type: 2}
         m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
         m_MethodName: CreateInstanceFromListRandomly
@@ -207,25 +194,45 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  canRun: 0
-  counterNum: {fileID: 0}
-  seconds: 1
---- !u!114 &521196828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521196825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 513ff7b20536446a59dbdedbe058d069, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 0240a97c943b8483ca2500daf2e6c85e, type: 2}
-  startEvent:
+  startCountEvent:
     m_PersistentCalls:
       m_Calls: []
+  repeatCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: daf557462212a4addbd7426fd436aabe, type: 2}
+        m_TargetAssemblyTypeName: ColorIDDataList, Assembly-CSharp
+        m_MethodName: SetCurrentColorRandomly
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ddbc089f927ca426da1dd9b3cf9fac1e, type: 2}
+        m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
+        m_MethodName: CreateInstanceFromListRandomly
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 530de7cde5ab144449aa32db4edb4176, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3DataList, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  canRun: 1
+  counterNum: {fileID: 0}
+  seconds: 1
 --- !u!1 &1749223327
 GameObject:
   m_ObjectHideFlags: 0
