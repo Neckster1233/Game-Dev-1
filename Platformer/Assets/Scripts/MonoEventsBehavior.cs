@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class MonoEventsBehavior : MonoBehaviour
 {
-    public UnityEvent startEvent, awakeEvent, disableEvent;
+    public UnityEvent awakeEvent, startEvent, disableEvent;
 
     private void Awake()
     {
